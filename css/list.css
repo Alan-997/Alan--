@@ -1,0 +1,123 @@
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    height: 40px;
+    border-left: 2px solid #c40000;
+    text-align: center;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.sk h1 {
+    font-size: 24px;
+    color: #c40000;
+    font-weight: 700;
+}
+
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 30px;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    height: 45px;
+    line-height: 47px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 20px;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e619';
+    font-family: "iconfont";
+}
+.sk_hd {
+    height: 200px;
+    
+}
+.sk_bd {
+    margin-top: 10px;
+    overflow: hidden;
+    
+}
+.sk_bd ul li {
+    float: left;
+    width: 291px;
+    margin: 10px 12px 0 0;
+    text-align: center;
+    padding-top: 40px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #b1191a;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.pic img {
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+}
+.pic img:hover {
+    opacity: 1;
+}
+.describe {
+    padding: 10px;
+}
+.price .p_price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #b1191a;
+}
+.price .o_price {
+    text-decoration: line-through;
+}
+.progress {
+    padding: 10px;
+}
+.progress .bar {
+    display: inline-block;
+    width: 150px;
+    height: 13px;
+    border: 1px solid #b1191a;
+    border-radius: 7px ;
+    -webkit-border-radius: 7px ;
+    -moz-border-radius: 7px ;
+    -ms-border-radius: 7px ;
+    -o-border-radius: 7px ;
+}
+.progress .bar i {
+    display: block;
+    width: 120px;
+    height: 12px;
+    background-color: #c40000;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.buy_now {
+    width: 291px;
+    height: 52px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #b1191a;
+    background-color: #b1191a;
+}
+.buy_now a {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+}
